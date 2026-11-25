@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE BASICS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>{{message}}</h1>
+        <p>{{info}}</p>
+        <br>
+        <br>
+        <h3>{{condition}}</h3>
+        <p v-if="age>18">congratulations 👍 you are eligible ...</p>
+        <p v-else>Sorry ☹️ you are not eligible..</p>
+    </div>
+    <script src="vue.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black; 
+    color: white;            
+    height: 100vh;          
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    font-family: Arial, sans-serif;
+    
+}
+
+#app {
+    text-align: center;     
+}
+
+#app h1 {
+    margin-bottom: 10px;    
+}
